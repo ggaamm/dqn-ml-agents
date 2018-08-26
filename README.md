@@ -38,3 +38,5 @@ from dqn_agent_d import Agent
 ```
 
 "# dqn-ml-agents" 
+
+Saved weights are stored in ```checkpoint_dqn.pth``` for Deep Q-learning and ```checkpoint_ddqn.pth``` Double Deep Q-learning algorithms.

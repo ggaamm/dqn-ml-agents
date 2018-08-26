@@ -1,5 +1,5 @@
 
-# Project 1: Navigation
+# Project: Navigation
 
 ### Introduction
 
@@ -29,6 +29,9 @@ The DQN_Banana.ipynb is the main jupyter notebook file of the project. Please re
 
 The Deep Q-Learning agent is implemented in dqn_agent.py and Double Q-Learning is implemented in dqn_agent_d.py. Based on which file to import in DQN_Banana.ipynb the mentioned algorithms are selected.
 
+Saved Model Weights are stored in q_checkpoint.pth 
+
+
 
 ```
 #agent
@@ -37,6 +40,3 @@ The Deep Q-Learning agent is implemented in dqn_agent.py and Double Q-Learning i
 from dqn_agent_d import Agent 
 ```
 
-"# dqn-ml-agents" 
-
-Saved weights are stored in ```checkpoint_dqn.pth``` for Deep Q-learning and ```checkpoint_ddqn.pth``` Double Deep Q-learning algorithms.
